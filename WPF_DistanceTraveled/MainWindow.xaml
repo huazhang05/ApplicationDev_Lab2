@@ -1,0 +1,23 @@
+﻿<Window x:Class="WPF_DistanceTraveled.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_DistanceTraveled"
+        mc:Ignorable="d"
+        Title="Distance Traveled" Height="450" Width="800">
+    <Grid>
+        <Label Content="Distance Traveled" HorizontalAlignment="Center" Margin="0,28,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" FontFamily="Arial Black"/>
+        <Label Content="Speed" HorizontalAlignment="Left" Margin="295,96,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="speedInput" HorizontalAlignment="Left" Margin="374,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Label Content="mph" HorizontalAlignment="Left" Margin="499,96,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Times" HorizontalAlignment="Left" Margin="298,139,0,0" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="0.963,0.664"/>
+        <Label Content="hours" HorizontalAlignment="Left" Margin="501,140,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Distance" HorizontalAlignment="Left" Margin="277,269,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="distanceTraveledOutput" HorizontalAlignment="Left" Margin="370,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Label Content="miles" HorizontalAlignment="Left" Margin="495,269,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="ditanceTraveled" Content="Culculate Distance" HorizontalAlignment="Left" Margin="370,228,0,0" VerticalAlignment="Top" FontSize="14" Click="Button_Click"/>
+        <TextBox x:Name="timesIput" HorizontalAlignment="Left" Margin="374,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+
+    </Grid>
+</Window>

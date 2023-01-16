@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPF_AllApplications.TestScoreWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_AllApplications"
+        mc:Ignorable="d"
+        Title="TestScoreWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="input1" HorizontalAlignment="Left" Margin="354,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="354,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <TextBox x:Name="input3" HorizontalAlignment="Left" Margin="354,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Label Content="Score 1" HorizontalAlignment="Left" Margin="284,97,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Score 2" HorizontalAlignment="Left" Margin="284,132,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Score 3" HorizontalAlignment="Left" Margin="284,171,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button Content="Calculate Average Score" HorizontalAlignment="Left" Margin="293,230,0,0" VerticalAlignment="Top" Width="160" Click="Button_Click" FontSize="14"/>
+        <TextBox x:Name="averageScore" HorizontalAlignment="Left" Margin="354,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Label Content="Average Score" HorizontalAlignment="Left" Margin="241,275,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <TextBox x:Name="letterGrade" HorizontalAlignment="Left" Margin="354,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <Label Content="Letter Grade" HorizontalAlignment="Left" Margin="253,319,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Test Scores" HorizontalAlignment="Left" Margin="321,28,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" FontFamily="Arial Black"/>
+        <Button x:Name="backToHome" Content="Back to Homepage &gt;&gt;" HorizontalAlignment="Left" Margin="311,362,0,0" VerticalAlignment="Top" Background="#FFDDDDDD" BorderBrush="#FF707070" Foreground="Black" Click="backToHome_Click"/>
+    </Grid>
+</Window>
