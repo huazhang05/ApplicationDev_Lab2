@@ -10,7 +10,7 @@
         <Label Content="Welcome to All Applications" HorizontalAlignment="Center" Margin="0,43,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Arial Black" FontWeight="Bold"/>
         <Label Content="Please choose one Application:" HorizontalAlignment="Center" Margin="0,104,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Button x:Name="goButton" Content="GO !" HorizontalAlignment="Center" Margin="0,292,0,0" VerticalAlignment="Top" FontSize="14" Width="78" Click="Button_Click" />
-        <ComboBox x:Name="combobox" HorizontalAlignment="Center" Margin="0,178,0,0" VerticalAlignment="Top" Width="228" ItemsSource="{Binding operations}" SelectedIndex="0"/>
+        <ComboBox x:Name="combobox" HorizontalAlignment="Center" Margin="0,178,0,0" VerticalAlignment="Top" Width="228" ItemsSource="{Binding Operations}" SelectedIndex="0"/>
 
     </Grid>
 </Window>

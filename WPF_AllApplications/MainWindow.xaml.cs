@@ -20,11 +20,12 @@ namespace WPF_AllApplications
     /// </summary>
     public partial class MainWindow : Window
     {
-        public string[] operations { get; set; }
+        public string[] Operations { get; set; }
         public MainWindow()
         {
             InitializeComponent();
-            operations = new string[] { "Test Scores", "Bank Charge", "Shipping Charge", "Distance Travel" };
+            Operations = new string[] { "Test Scores", "Bank Charge", "Shipping Charge", "Distance Travel" };
+            DataContext= this;
         }
 
 
