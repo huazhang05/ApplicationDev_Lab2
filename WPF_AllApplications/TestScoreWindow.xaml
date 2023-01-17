@@ -19,6 +19,6 @@
         <TextBox x:Name="letterGrade" HorizontalAlignment="Left" Margin="354,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="14"/>
         <Label Content="Letter Grade" HorizontalAlignment="Left" Margin="253,319,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold"/>
         <Label Content="Test Scores" HorizontalAlignment="Left" Margin="321,28,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" FontFamily="Arial Black"/>
-        <Button x:Name="backToHome" Content="Back to Homepage &gt;&gt;" HorizontalAlignment="Left" Margin="311,362,0,0" VerticalAlignment="Top" Background="#FFDDDDDD" BorderBrush="#FF707070" Foreground="Black" Click="backToHome_Click"/>
+        <Button x:Name="backToHome" Content="Back to Homepage &gt;&gt;" HorizontalAlignment="Left" Margin="653,392,0,0" VerticalAlignment="Top" Background="#FFBAC0EF" BorderBrush="#FF707070" Foreground="Black" Click="backToHome_Click"/>
     </Grid>
 </Window>

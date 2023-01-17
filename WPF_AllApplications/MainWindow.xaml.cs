@@ -20,33 +20,43 @@ namespace WPF_AllApplications
     /// </summary>
     public partial class MainWindow : Window
     {
+        public string[] operations { get; set; }
         public MainWindow()
         {
             InitializeComponent();
+            operations = new string[] { "Test Scores", "Bank Charge", "Shipping Charge", "Distance Travel" };
         }
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-            if (testScoreApp.IsChecked == true)
+            
+            if ((string)combobox.SelectedValue == "Test Scores")
             {
                 TestScoreWindow tsWindow = new TestScoreWindow();
                 tsWindow.Show();
                 this.Close();
             }
-            else if (bankChargeApp.IsChecked == true) 
+            else if ((string)combobox.SelectedValue == "Bank Charge") 
             {
                 BankChargeWindow bcWindow = new BankChargeWindow();
                 bcWindow.Show();
                 this.Close();
             }
-                
+            else if ((string)combobox.SelectedValue == "Shipping Charge")
+            {
+                ShippingChargeWindow scWindow = new ShippingChargeWindow();
+                scWindow.Show();
+                this.Close();
+            }
+            else if ((string)combobox.SelectedValue == "Distance Travel")
+            {
+                DistanceTraveledWindow dtWindow = new DistanceTraveledWindow();
+                dtWindow.Show();
+                this.Close();
+            }
+
         }
 
-        private void testScoreApp_Checked(object sender, RoutedEventArgs e)
-        {
-            
-        }
     }
 }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\vanier\block4\Application Development\02-Assignment\Lab2_3\WPF_AllApplications\obj\Debug\net6.0-windows\
+D:\vanier\block4\Application Development\02-Assignment\Lab2_3\ApplicationDev_Lab2\WPF_AllApplications\obj\Debug\net6.0-windows\
 WPF_AllApplications
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\vanier\block4\Application Development\02-Assignment\Lab2_3\WPF_AllApplications\App.xaml
+D:\vanier\block4\Application Development\02-Assignment\Lab2_3\ApplicationDev_Lab2\WPF_AllApplications\App.xaml
 5-1802434247
 
 7-1876638913
 194-2004305220
 BankChargeWindow.xaml;DistanceTraveledWindow.xaml;MainWindow.xaml;ShippingChargeWindow.xaml;TestScoreWindow.xaml;
 
-True
+False
 

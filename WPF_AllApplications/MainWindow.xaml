@@ -8,12 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="Welcome to All Applications" HorizontalAlignment="Center" Margin="0,43,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Arial Black" FontWeight="Bold"/>
-        <RadioButton x:Name="testScoreApp" Content="Test Scores" HorizontalAlignment="Left" Margin="334,152,0,0" VerticalAlignment="Top" FontSize="16" IsChecked="True" Checked="testScoreApp_Checked"/>
         <Label Content="Please choose one Application:" HorizontalAlignment="Center" Margin="0,104,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <RadioButton x:Name="bankChargeApp" Content="Bank Charge" HorizontalAlignment="Left" Margin="334,197,0,0" VerticalAlignment="Top" FontSize="16" Checked="testScoreApi_Copy_Checked"/>
-        <RadioButton x:Name="shippingChargeApp" Content="Shipping Charge" HorizontalAlignment="Left" Margin="334,243,0,0" VerticalAlignment="Top" FontSize="16" Checked="testScoreApi_Copy_Checked"/>
-        <RadioButton x:Name="distanceTraveledApp" Content="Distance Traveled" HorizontalAlignment="Left" Margin="334,285,0,0" VerticalAlignment="Top" FontSize="16" Checked="testScoreApi_Copy_Checked"/>
-        <Button Content="GO !" HorizontalAlignment="Center" Margin="0,351,0,0" VerticalAlignment="Top" FontSize="14" Width="77" Click="Button_Click" ItemsSource/>
+        <Button x:Name="goButton" Content="GO !" HorizontalAlignment="Center" Margin="0,292,0,0" VerticalAlignment="Top" FontSize="14" Width="78" Click="Button_Click" />
+        <ComboBox x:Name="combobox" HorizontalAlignment="Center" Margin="0,178,0,0" VerticalAlignment="Top" Width="228" ItemsSource="{Binding operations}" SelectedIndex="0"/>
 
     </Grid>
 </Window>
