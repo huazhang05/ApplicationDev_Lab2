@@ -32,5 +32,12 @@ namespace WPF_AllApplications
             distance = speed * times;
             distanceTraveledOutput.Text = Convert.ToString(distance);
         }
+
+        private void backToHome_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mWindow = new MainWindow();
+            mWindow.Show();
+            this.Close();
+        }
     }
 }

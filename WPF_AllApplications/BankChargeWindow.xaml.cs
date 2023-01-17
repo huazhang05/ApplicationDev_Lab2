@@ -56,5 +56,12 @@ namespace WPF_AllApplications
 
             serviceFee.Text = Convert.ToString(monthlyserviceFee);
         }
+
+        private void backToHome_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mWindow = new MainWindow();
+            mWindow.Show();
+            this.Close();
+        }
     }
 }
